@@ -11,7 +11,6 @@ AddEventHandler('spawn-car:taco', function()
 	SetVehicleNumberPlateText(vehicle, plate)
 	SetPedIntoVehicle(GetPlayerPed(-1), vehicle, -1)
     TriggerServerEvent('sokey-addkeys', plate)
-	ambulanceTaken = true
         ESX.ShowNotification('Auto czeka na zewnątrz!')
     end)
 else
@@ -30,7 +29,6 @@ AddEventHandler('spawn-car:taco2', function()
 	SetVehicleNumberPlateText(vehicle, plate)
 	SetPedIntoVehicle(GetPlayerPed(-1), vehicle, -1)
     TriggerServerEvent('sokey-addkeys', plate)
-	ambulanceTaken = true
     ESX.ShowNotification('Auto czeka na zewnątrz!')
     end)
 else
