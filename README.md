@@ -13,7 +13,6 @@ AddEventHandler('spawn-car:trigger', function()
 	SetVehicleNumberPlateText(vehicle, plate)
 	SetPedIntoVehicle(GetPlayerPed(-1), vehicle, -1)
     TriggerServerEvent('sokey-addkeys', plate) -- dodawanie kluczkyow
-	ambulanceTaken = true
         ESX.ShowNotification('Auto czeka na zewnątrz!') -- powiadomienie
     end)
 else
