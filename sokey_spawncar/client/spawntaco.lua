@@ -10,7 +10,7 @@ AddEventHandler('spawn-car:taco', function()
 	local plate =  "Taco"..platenum
 	SetVehicleNumberPlateText(vehicle, plate)
 	SetPedIntoVehicle(GetPlayerPed(-1), vehicle, -1)
-    TriggerServerEvent('sokey-addkeys', plate)
+        TriggerServerEvent('sokey-addkeys', plate)
         ESX.ShowNotification('Auto czeka na zewnątrz!')
     end)
 else
@@ -28,8 +28,8 @@ AddEventHandler('spawn-car:taco2', function()
 	local plate =  "Taco"..platenum
 	SetVehicleNumberPlateText(vehicle, plate)
 	SetPedIntoVehicle(GetPlayerPed(-1), vehicle, -1)
-    TriggerServerEvent('sokey-addkeys', plate)
-    ESX.ShowNotification('Auto czeka na zewnątrz!')
+        TriggerServerEvent('sokey-addkeys', plate)
+        ESX.ShowNotification('Auto czeka na zewnątrz!')
     end)
 else
 	ESX.ShowNotification('Miejsce wyjmowania pojazdu jest zastawione')
