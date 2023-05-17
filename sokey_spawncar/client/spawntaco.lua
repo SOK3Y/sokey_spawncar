@@ -50,14 +50,14 @@ exports.qtarget:AddBoxZone("autataco", vector3(20.53, -1603.26, 29.38), 2, 2, {
 				icon = "fas fa-hands",
 				label = "Wyciągnij pojazd SPEEDO",
 				-- job = "taco",
-                num = 1
+                                num = 1
 			},
 			{
 				event = "spawn-car:taco2",
 				icon = "fas fa-hands",
 				label = "Wyciągnij pojazd TACO",
 				-- job = "taco",
-                num = 2
+                                num = 2
 			},
 			
 		},
